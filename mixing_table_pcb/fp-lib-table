@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "huellas_mm")(type "KiCad")(uri "C:/Users/mario/Desktop/mesa_de_mezclas/libreria_huellas_mm")(options "")(descr ""))
+)

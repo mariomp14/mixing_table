@@ -1,0 +1,163 @@
+
+**** 11/05/24 20:50:26 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-s2"  [ c:\creativa\mesa_de_mezclas-PSpiceFiles\SCHEMATIC1\s2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "s2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\migue\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC PARAM graves LIST 0 0.05 0.2 0.5 0.8 0.95 1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source MESA_DE_MEZCLAS
+C_CANAL1_C1         V1 CANAL1_N00354  2.2u  TC=0,0 
+C_CANAL1_C2         CANAL1_N00459 CANAL1_N00448  3.3n  TC=0,0 
+R_CANAL1_R1         CANAL1_N00354 CANAL1_N00320  10k TC=0,0 
+R_CANAL1_R2         CANAL1_N00324 VOUT  10k TC=0,0 
+R_CANAL1_R3         CANAL1_N00354 CANAL1_N00432  2.2k TC=0,0 
+R_CANAL1_R4         CANAL1_N00444 VOUT  2.2k TC=0,0 
+R_CANAL1_R5         CANAL1_N00382 CANAL1_N00448  9k TC=0,0 
+X_CANAL1_U1A         V1 CANAL1_N00448 CANAL1_N00852 CANAL1_N00848 VOUT
++  TL082/301/TI
+C_CANAL1_C3         CANAL1_N00320 CANAL1_N00324  33n  TC=0,0 
+X_CANAL1_R6         CANAL1_N00320 CANAL1_N00382 CANAL1_N00324 POT PARAMS: SET=
++ {graves} VALUE=100K
+X_CANAL1_R7         CANAL1_N00432 CANAL1_N00459 CANAL1_N00444 POT PARAMS: SET=
++ {graves} VALUE=470k
+V_CANAL1_V1         VCC CANAL1_N00852 5Vdc
+V_CANAL1_V2         CANAL1_N00848 VCC 5Vdc
+V_V1         V1 0 DC 0Vdc AC 0.1Vac 
+.PARAM  graves=0.5
+
+**** RESUMING s2.cir ****
+.END
+
+**** 11/05/24 20:50:26 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-s2"  [ c:\creativa\mesa_de_mezclas-PSpiceFiles\SCHEMATIC1\s2.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_CANAL1_U1A.DX 
+          IS  800.000000E-18 
+
+
+**** 11/05/24 20:50:26 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-s2"  [ c:\creativa\mesa_de_mezclas-PSpiceFiles\SCHEMATIC1\s2.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_CANAL1_U1A.JX 
+               PJF             
+         VTO   -1            
+        BETA  270.100000E-06 
+          IS   15.000000E-12 
+
+
+Starting pseudo-transient algorithm.
+
+ERROR(ORPSIM-16550): Floating point computation failed during matrix solution. Possible solutions: 1)Ensure that all device parameters are in valid range. 2)Try using .options LIMIT
+
+INTERNAL ERROR -- Overflow, Multiply
+
+ABORTING SIMULATION
+**** 11/05/24 20:50:26 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-s2"  [ c:\creativa\mesa_de_mezclas-PSpiceFiles\SCHEMATIC1\s2.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =          14
+  External (NCNODS)                 =          27
+  Total (NUMNOD)                    =          27
+
+Total device count (NUMEL)          =          43
+  Capacitors (C)                    =           5
+  Diodes (D)                        =           5
+  VCVS (E)                          =           1
+  CCCS (F)                          =           1
+  VCCS (G)                          =           2
+  CCVS (H)                          =           1
+  Current Sources (I)               =           1
+  JFETs (J)                         =           2
+  Resistors (R)                     =          16
+  Voltage Sources (V)               =           9
+
+Number of subcircuits (X)           =           3
+
+Matrix statistics:
+  Matrix size (NSTOP)               =          38
+  Initial no. elements (NTTAR)      =         138
+  No. elements w/ fillin (NTTBR)    =         315
+  No. fillins (IFILL)               =         177
+  No. overflows (NTTOV)             =          82
+  No. LU operations (IOPS)          =         765
+  Percent sparsity (PERSPA)         =      78.186
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =          11
+  No. rejected time points (NUMRTP) =          11
+  No. iterations (NUMNIT)           =         876
+
+Load Threads                        =           4
+
+Runtime statistics:                       Seconds      Iterations   Stopped At
+  Matrix load                       =         .08
+  Matrix solution                   =        0.00              30
+  Readin                            =         .03
+  General setup                     =        0.00
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  Default algorithm                 =        -.02           -1050
+  GMIN stepping                     =         .02            1050     100.00m
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .11
+  Total job time (using Solver 1)   =         .13
+

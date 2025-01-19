@@ -1,0 +1,2119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\mario\Desktop\mesa_de_mezclas\mesa_mezclas\mesa_mezclas.kicad_sch</source>
+    <date>2024-11-23T13:52:01+0100</date>
+    <tool>Eeschema 8.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Mesa de mezclas</title>
+        <company>Electrónica Creativa</company>
+        <rev/>
+        <date>2024-11-11</date>
+        <source>mesa_mezclas.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Baxandall_ch1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Baxandall_ch2/" tstamps="/9dffabd7-0e04-42ef-8153-ab3344954c09/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Baxandall_ch2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/BALANCE_publico/" tstamps="/ff69b711-f004-4574-b88b-e91b87213fc4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BALANCE_publico.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/BALANCE_dj/" tstamps="/02bb76dd-295c-496a-ac20-b005ea55e5b0/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BALANCE_dj_sch.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/amplificador_auriculares/" tstamps="/f09ea02c-637d-4109-8de1-398fc0c9440b/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>amplificador_auriculares.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C13">
+      <value>100p</value>
+      <footprint>huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="c" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Raíz"/>
+      <property name="Sheetfile" value="mesa_mezclas.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2020d0b0-39dd-4056-a5d2-7759b8889fb8</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02_Socket</value>
+      <footprint>huellas_mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">huellas_mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="conn_01x02_socket" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Raíz"/>
+      <property name="Sheetfile" value="mesa_mezclas.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e8a6c9e-64ed-4c2f-8a31-0effb08ab32e</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Socket</value>
+      <footprint>huellas_mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">huellas_mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="conn_01x02_socket" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Raíz"/>
+      <property name="Sheetfile" value="mesa_mezclas.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb429df3-1584-435c-b72d-8093dc8401f5</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>1k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Raíz"/>
+      <property name="Sheetfile" value="mesa_mezclas.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88de6fed-2692-4bb6-b1db-f17d371a8817</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>1k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Raíz"/>
+      <property name="Sheetfile" value="mesa_mezclas.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c838003e-8fb7-4d70-b12b-e51907c3a3d7</tstamps>
+    </comp>
+    <comp ref="RV9">
+      <value>10k</value>
+      <footprint>huellas_mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Potentiometer</description>
+      <fields>
+        <field name="Footprint">huellas_mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Potentiometer</field>
+      </fields>
+      <libsource lib="r_potentiometer" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Raíz"/>
+      <property name="Sheetfile" value="mesa_mezclas.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b99f7d85-c2b4-4f58-bb73-ee3451049ac5</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TL082</value>
+      <footprint>huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl081.pdf</datasheet>
+      <description>Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</description>
+      <fields>
+        <field name="Footprint">huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl081.pdf</field>
+        <field name="Description">Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</field>
+      </fields>
+      <libsource lib="tl082" part="TL082" description="Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"/>
+      <property name="Sheetname" value="Raíz"/>
+      <property name="Sheetfile" value="mesa_mezclas.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>405e8740-8e83-45f0-a253-1a8d94d1d4a1 2e0bcea5-2517-4606-8b80-a46770478416 2137598d-f9bd-49f0-b497-f0161d14c9d6</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>2u2</value>
+      <footprint>huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="c" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>b038ebc8-0c56-41f3-8a32-140c4cf38b66</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>33n</value>
+      <footprint>huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="c" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>821f9189-2368-4f4e-b073-c98355370661</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>3n3</value>
+      <footprint>huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="c" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>5c071ab9-1834-4b31-9f90-11b381c866cc</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>C_Polarized</value>
+      <footprint>huellas_mm:CP_Elec_5x5.3</footprint>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:CP_Elec_5x5.3</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="c_polarized" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>ece47973-4d0a-49fb-8827-5fb7ed0dc194</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>C_Polarized</value>
+      <footprint>huellas_mm:CP_Elec_5x5.3</footprint>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:CP_Elec_5x5.3</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="c_polarized" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>49f1b7e6-b868-4923-bd73-63514f387f9c</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Socket</value>
+      <footprint>huellas_mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">huellas_mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="conn_01x02_socket" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>f149084f-61ce-4a35-b3fc-12b25dcc8c6c</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x03_Socket</value>
+      <footprint>huellas_mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="Footprint">huellas_mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="conn_01x03_socket" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>47970a56-468f-4524-900d-6d70a018760f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>fefc8dee-b2c9-4ae3-ba3b-3604438d855e</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2k2</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>99eb7970-109f-4885-bd97-d067839eacf4</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>f1d0d41e-1e74-49d6-b8e8-f4387cbde2f0</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>2k2</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>b9479aaf-ea78-4f00-9e96-b8f3cee29ba6</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>1ea36933-8c74-4ca9-93c0-2cb12dc500f7</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>100k</value>
+      <footprint>huellas_mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Potentiometer</description>
+      <fields>
+        <field name="Footprint">huellas_mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Potentiometer</field>
+      </fields>
+      <libsource lib="r_potentiometer" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>dca78e27-c13a-40b9-9c3a-15fbf8cb6670</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>470k</value>
+      <footprint>huellas_mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Potentiometer</description>
+      <fields>
+        <field name="Footprint">huellas_mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Potentiometer</field>
+      </fields>
+      <libsource lib="r_potentiometer" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>01a3fd19-6139-405f-83d5-6dd0f4de31d2</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TL082</value>
+      <footprint>huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl081.pdf</datasheet>
+      <description>Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</description>
+      <fields>
+        <field name="Footprint">huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl081.pdf</field>
+        <field name="Description">Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</field>
+      </fields>
+      <libsource lib="tl082" part="TL082" description="Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>798f649d-48ab-48d0-9527-a6df50f3104b 0d99b9a9-b344-4d77-a17d-952e347f16d2</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>BAT46W</value>
+      <footprint>huellas_mm:D_SOD-123F</footprint>
+      <fields>
+        <field name="MF">Diotec Semiconductor</field>
+        <field name="Description_1">
+                        
+                            Schottky, SOD-123, 100V, 0.15A, 150°C
+                        
+</field>
+        <field name="Package">SOD-123 Diotec</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/BAT46W/Diotec/view-part/?ref=snap</field>
+        <field name="MP">BAT46W</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/BAT46W/Diotec/view-part/?ref=eda</field>
+        <field name="Footprint">huellas_mm:D_SOD-123F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="BAT46W" part="BAT46W" description=""/>
+      <property name="MF" value="Diotec Semiconductor"/>
+      <property name="Description_1" value="&#xA;                        &#xA;                            Schottky, SOD-123, 100V, 0.15A, 150°C&#xA;                        &#xA;"/>
+      <property name="Package" value="SOD-123 Diotec"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/BAT46W/Diotec/view-part/?ref=snap"/>
+      <property name="MP" value="BAT46W"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/BAT46W/Diotec/view-part/?ref=eda"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>646d13db-0dd8-4d60-8286-fafb4233afc8</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>BAT46W</value>
+      <footprint>huellas_mm:D_SOD-123F</footprint>
+      <fields>
+        <field name="MF">Diotec Semiconductor</field>
+        <field name="Description_1">
+                        
+                            Schottky, SOD-123, 100V, 0.15A, 150°C
+                        
+</field>
+        <field name="Package">SOD-123 Diotec</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/BAT46W/Diotec/view-part/?ref=snap</field>
+        <field name="MP">BAT46W</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/BAT46W/Diotec/view-part/?ref=eda</field>
+        <field name="Footprint">huellas_mm:D_SOD-123F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="BAT46W" part="BAT46W" description=""/>
+      <property name="MF" value="Diotec Semiconductor"/>
+      <property name="Description_1" value="&#xA;                        &#xA;                            Schottky, SOD-123, 100V, 0.15A, 150°C&#xA;                        &#xA;"/>
+      <property name="Package" value="SOD-123 Diotec"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/BAT46W/Diotec/view-part/?ref=snap"/>
+      <property name="MP" value="BAT46W"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/BAT46W/Diotec/view-part/?ref=eda"/>
+      <property name="Sheetname" value="Baxandall_ch1"/>
+      <property name="Sheetfile" value="Baxandall_ch1.kicad_sch"/>
+      <sheetpath names="/Baxandall_ch1/" tstamps="/15a91293-b03c-44ea-b659-7244cb796d31/"/>
+      <tstamps>3c62524b-3672-467b-af30-2fddc356c6f0</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>2u2</value>
+      <footprint>huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="c" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Baxandall_ch2"/>
+      <property name="Sheetfile" value="Baxandall_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Baxandall_ch2/" tstamps="/9dffabd7-0e04-42ef-8153-ab3344954c09/"/>
+      <tstamps>2cca4e03-bd81-4839-8c64-6ba66dda159a</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>33n</value>
+      <footprint>huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="c" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Baxandall_ch2"/>
+      <property name="Sheetfile" value="Baxandall_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Baxandall_ch2/" tstamps="/9dffabd7-0e04-42ef-8153-ab3344954c09/"/>
+      <tstamps>144631dc-41f8-4639-aed1-c0ebd4878e53</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>3n3</value>
+      <footprint>huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="c" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Baxandall_ch2"/>
+      <property name="Sheetfile" value="Baxandall_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Baxandall_ch2/" tstamps="/9dffabd7-0e04-42ef-8153-ab3344954c09/"/>
+      <tstamps>7044e261-67f1-4ee8-a8cf-ec3b1a6b25cc</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02_Socket</value>
+      <footprint>huellas_mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">huellas_mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="conn_01x02_socket" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Baxandall_ch2"/>
+      <property name="Sheetfile" value="Baxandall_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Baxandall_ch2/" tstamps="/9dffabd7-0e04-42ef-8153-ab3344954c09/"/>
+      <tstamps>755b594e-644b-4d43-98a0-23b3d786a742</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Baxandall_ch2"/>
+      <property name="Sheetfile" value="Baxandall_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Baxandall_ch2/" tstamps="/9dffabd7-0e04-42ef-8153-ab3344954c09/"/>
+      <tstamps>a18f2cb4-70df-4c29-9fdc-4de0add5b270</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>2k2</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Baxandall_ch2"/>
+      <property name="Sheetfile" value="Baxandall_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Baxandall_ch2/" tstamps="/9dffabd7-0e04-42ef-8153-ab3344954c09/"/>
+      <tstamps>c922fc46-54b2-496b-a5bb-4c8d1321a6ba</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Baxandall_ch2"/>
+      <property name="Sheetfile" value="Baxandall_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Baxandall_ch2/" tstamps="/9dffabd7-0e04-42ef-8153-ab3344954c09/"/>
+      <tstamps>72e78f68-e91a-4880-9bbe-6cfb1f0ed8b7</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Baxandall_ch2"/>
+      <property name="Sheetfile" value="Baxandall_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Baxandall_ch2/" tstamps="/9dffabd7-0e04-42ef-8153-ab3344954c09/"/>
+      <tstamps>8ebdf8de-cff1-4181-b197-403a988ca497</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>2k2</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Baxandall_ch2"/>
+      <property name="Sheetfile" value="Baxandall_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Baxandall_ch2/" tstamps="/9dffabd7-0e04-42ef-8153-ab3344954c09/"/>
+      <tstamps>4aebd364-3813-42c9-a725-b50229a04a4e</tstamps>
+    </comp>
+    <comp ref="RV3">
+      <value>100k</value>
+      <footprint>huellas_mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Potentiometer</description>
+      <fields>
+        <field name="Footprint">huellas_mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Potentiometer</field>
+      </fields>
+      <libsource lib="r_potentiometer" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Baxandall_ch2"/>
+      <property name="Sheetfile" value="Baxandall_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/Baxandall_ch2/" tstamps="/9dffabd7-0e04-42ef-8153-ab3344954c09/"/>
+      <tstamps>e893120e-aa6a-47ba-a561-20739ea471bf</tstamps>
+    </comp>
+    <comp ref="RV4">
+      <value>470k</value>
+      <footprint>huellas_mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Potentiometer</description>
+      <fields>
+        <field name="Footprint">huellas_mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Potentiometer</field>
+      </fields>
+      <libsource lib="r_potentiometer" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Baxandall_ch2"/>
+      <property name="Sheetfile" value="Baxandall_ch2.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/Baxandall_ch2/" tstamps="/9dffabd7-0e04-42ef-8153-ab3344954c09/"/>
+      <tstamps>6f251540-6228-4131-abee-040095966773</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100p</value>
+      <footprint>huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="c" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="BALANCE_publico"/>
+      <property name="Sheetfile" value="BALANCE_publico.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/BALANCE_publico/" tstamps="/ff69b711-f004-4574-b88b-e91b87213fc4/"/>
+      <tstamps>9ca74b45-ba5f-40df-9299-cfb6ea1de9c3</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1n</value>
+      <footprint>huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="c" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="BALANCE_publico"/>
+      <property name="Sheetfile" value="BALANCE_publico.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/BALANCE_publico/" tstamps="/ff69b711-f004-4574-b88b-e91b87213fc4/"/>
+      <tstamps>76466679-f050-42ca-9902-8eaa486f8df0</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BALANCE_publico"/>
+      <property name="Sheetfile" value="BALANCE_publico.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/BALANCE_publico/" tstamps="/ff69b711-f004-4574-b88b-e91b87213fc4/"/>
+      <tstamps>b942527c-c5f9-4258-92d7-cc5b394421c6</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BALANCE_publico"/>
+      <property name="Sheetfile" value="BALANCE_publico.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/BALANCE_publico/" tstamps="/ff69b711-f004-4574-b88b-e91b87213fc4/"/>
+      <tstamps>10fbe241-989f-4261-9d9d-b854db7ae843</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BALANCE_publico"/>
+      <property name="Sheetfile" value="BALANCE_publico.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/BALANCE_publico/" tstamps="/ff69b711-f004-4574-b88b-e91b87213fc4/"/>
+      <tstamps>0cbd4501-0e4b-4fa8-8bfc-8cbab8e7786e</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BALANCE_publico"/>
+      <property name="Sheetfile" value="BALANCE_publico.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/BALANCE_publico/" tstamps="/ff69b711-f004-4574-b88b-e91b87213fc4/"/>
+      <tstamps>23b5e117-a76f-4af3-8d57-9cce0290ce98</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BALANCE_publico"/>
+      <property name="Sheetfile" value="BALANCE_publico.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/BALANCE_publico/" tstamps="/ff69b711-f004-4574-b88b-e91b87213fc4/"/>
+      <tstamps>d16f4627-d3e8-4da7-89d4-eb5f13dd9c3f</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BALANCE_publico"/>
+      <property name="Sheetfile" value="BALANCE_publico.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/BALANCE_publico/" tstamps="/ff69b711-f004-4574-b88b-e91b87213fc4/"/>
+      <tstamps>f906adaf-7bf9-4687-92c4-81a88b546b49</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>3.3k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BALANCE_publico"/>
+      <property name="Sheetfile" value="BALANCE_publico.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/BALANCE_publico/" tstamps="/ff69b711-f004-4574-b88b-e91b87213fc4/"/>
+      <tstamps>ca463955-fba4-476e-86fa-79b4bbe1421b</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BALANCE_publico"/>
+      <property name="Sheetfile" value="BALANCE_publico.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/BALANCE_publico/" tstamps="/ff69b711-f004-4574-b88b-e91b87213fc4/"/>
+      <tstamps>510fc146-f6b4-41f8-80b3-464165a58a1c</tstamps>
+    </comp>
+    <comp ref="RV5">
+      <value>10k</value>
+      <footprint>huellas_mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Potentiometer</description>
+      <fields>
+        <field name="Footprint">huellas_mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Potentiometer</field>
+      </fields>
+      <libsource lib="r_potentiometer" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="BALANCE_publico"/>
+      <property name="Sheetfile" value="BALANCE_publico.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/BALANCE_publico/" tstamps="/ff69b711-f004-4574-b88b-e91b87213fc4/"/>
+      <tstamps>d48a22af-97f7-46e1-8b24-b59c99d3e7f1</tstamps>
+    </comp>
+    <comp ref="RV6">
+      <value>10k</value>
+      <footprint>huellas_mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Potentiometer</description>
+      <fields>
+        <field name="Footprint">huellas_mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Potentiometer</field>
+      </fields>
+      <libsource lib="r_potentiometer" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="BALANCE_publico"/>
+      <property name="Sheetfile" value="BALANCE_publico.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/BALANCE_publico/" tstamps="/ff69b711-f004-4574-b88b-e91b87213fc4/"/>
+      <tstamps>eb842eec-f05e-4e1e-9f31-b8806db07db2</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TL082</value>
+      <footprint>huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl081.pdf</datasheet>
+      <description>Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</description>
+      <fields>
+        <field name="Footprint">huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl081.pdf</field>
+        <field name="Description">Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</field>
+      </fields>
+      <libsource lib="tl082" part="TL082" description="Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"/>
+      <property name="Sheetname" value="BALANCE_publico"/>
+      <property name="Sheetfile" value="BALANCE_publico.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
+      <sheetpath names="/BALANCE_publico/" tstamps="/ff69b711-f004-4574-b88b-e91b87213fc4/"/>
+      <tstamps>ce631a9d-3fc4-4d6e-a098-8fdeea40a3a6 c50f9891-4677-40c1-ab3e-1f39c14c4df9 0f7315fc-9d8b-4d04-b883-e2981c1a41db</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TL082</value>
+      <footprint>huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl081.pdf</datasheet>
+      <description>Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</description>
+      <fields>
+        <field name="Footprint">huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl081.pdf</field>
+        <field name="Description">Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</field>
+      </fields>
+      <libsource lib="tl082" part="TL082" description="Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"/>
+      <property name="Sheetname" value="BALANCE_publico"/>
+      <property name="Sheetfile" value="BALANCE_publico.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
+      <sheetpath names="/BALANCE_publico/" tstamps="/ff69b711-f004-4574-b88b-e91b87213fc4/"/>
+      <tstamps>a1b4f727-47ab-46aa-89e6-e9b656e2a906 7b2fe0c2-4970-4f95-b8d8-c02ef69bdee8 0cb7db6a-816a-48e9-ae68-0d827499e4b9</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>TL082</value>
+      <footprint>huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl081.pdf</datasheet>
+      <description>Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</description>
+      <fields>
+        <field name="Footprint">huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl081.pdf</field>
+        <field name="Description">Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</field>
+      </fields>
+      <libsource lib="tl082" part="TL082" description="Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"/>
+      <property name="Sheetname" value="BALANCE_publico"/>
+      <property name="Sheetfile" value="BALANCE_publico.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
+      <sheetpath names="/BALANCE_publico/" tstamps="/ff69b711-f004-4574-b88b-e91b87213fc4/"/>
+      <tstamps>e8c1ab25-9f36-4b93-9cc1-51d885a8ebb9 80a1c2a2-ab62-4658-bfab-d55f70e726f4</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1n</value>
+      <footprint>huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="c" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="BALANCE_dj"/>
+      <property name="Sheetfile" value="BALANCE_dj_sch.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/BALANCE_dj/" tstamps="/02bb76dd-295c-496a-ac20-b005ea55e5b0/"/>
+      <tstamps>79d4dae4-4966-4367-a59c-126de49f1fef</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1n</value>
+      <footprint>huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="c" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="BALANCE_dj"/>
+      <property name="Sheetfile" value="BALANCE_dj_sch.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/BALANCE_dj/" tstamps="/02bb76dd-295c-496a-ac20-b005ea55e5b0/"/>
+      <tstamps>20086e93-1671-44ca-824f-b6e0e4b6189e</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BALANCE_dj"/>
+      <property name="Sheetfile" value="BALANCE_dj_sch.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/BALANCE_dj/" tstamps="/02bb76dd-295c-496a-ac20-b005ea55e5b0/"/>
+      <tstamps>07119a15-4f6d-4177-909b-31c7d02cf970</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BALANCE_dj"/>
+      <property name="Sheetfile" value="BALANCE_dj_sch.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/BALANCE_dj/" tstamps="/02bb76dd-295c-496a-ac20-b005ea55e5b0/"/>
+      <tstamps>639bc931-b4f9-48e9-b5ed-be936f70d857</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BALANCE_dj"/>
+      <property name="Sheetfile" value="BALANCE_dj_sch.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/BALANCE_dj/" tstamps="/02bb76dd-295c-496a-ac20-b005ea55e5b0/"/>
+      <tstamps>50f0b921-8f0d-46ad-a289-2b2b36eedff0</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BALANCE_dj"/>
+      <property name="Sheetfile" value="BALANCE_dj_sch.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/BALANCE_dj/" tstamps="/02bb76dd-295c-496a-ac20-b005ea55e5b0/"/>
+      <tstamps>742e5c4e-1d8d-427d-be05-59e732048973</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BALANCE_dj"/>
+      <property name="Sheetfile" value="BALANCE_dj_sch.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/BALANCE_dj/" tstamps="/02bb76dd-295c-496a-ac20-b005ea55e5b0/"/>
+      <tstamps>9c11d97e-04ea-431e-b3f2-42296f60a8d0</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BALANCE_dj"/>
+      <property name="Sheetfile" value="BALANCE_dj_sch.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/BALANCE_dj/" tstamps="/02bb76dd-295c-496a-ac20-b005ea55e5b0/"/>
+      <tstamps>6ce12947-85ab-4a31-b2bb-1c5e129a9d2a</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>3.3k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BALANCE_dj"/>
+      <property name="Sheetfile" value="BALANCE_dj_sch.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/BALANCE_dj/" tstamps="/02bb76dd-295c-496a-ac20-b005ea55e5b0/"/>
+      <tstamps>601ad02a-8454-4f24-8808-e12a90ee5ecb</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BALANCE_dj"/>
+      <property name="Sheetfile" value="BALANCE_dj_sch.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/BALANCE_dj/" tstamps="/02bb76dd-295c-496a-ac20-b005ea55e5b0/"/>
+      <tstamps>c6c1c88d-cb77-4104-903d-3192bb4f2185</tstamps>
+    </comp>
+    <comp ref="RV7">
+      <value>10k</value>
+      <footprint>huellas_mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Potentiometer</description>
+      <fields>
+        <field name="Footprint">huellas_mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Potentiometer</field>
+      </fields>
+      <libsource lib="r_potentiometer" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="BALANCE_dj"/>
+      <property name="Sheetfile" value="BALANCE_dj_sch.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/BALANCE_dj/" tstamps="/02bb76dd-295c-496a-ac20-b005ea55e5b0/"/>
+      <tstamps>464f0e4f-f5a2-4327-ab69-828b02791d21</tstamps>
+    </comp>
+    <comp ref="RV8">
+      <value>10k</value>
+      <footprint>huellas_mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Potentiometer</description>
+      <fields>
+        <field name="Footprint">huellas_mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Potentiometer</field>
+      </fields>
+      <libsource lib="r_potentiometer" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="BALANCE_dj"/>
+      <property name="Sheetfile" value="BALANCE_dj_sch.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/BALANCE_dj/" tstamps="/02bb76dd-295c-496a-ac20-b005ea55e5b0/"/>
+      <tstamps>9dc85adc-aa30-4625-bd46-0726933124d5</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>TL082</value>
+      <footprint>huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl081.pdf</datasheet>
+      <description>Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</description>
+      <fields>
+        <field name="Footprint">huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl081.pdf</field>
+        <field name="Description">Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</field>
+      </fields>
+      <libsource lib="tl082" part="TL082" description="Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"/>
+      <property name="Sheetname" value="BALANCE_dj"/>
+      <property name="Sheetfile" value="BALANCE_dj_sch.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
+      <sheetpath names="/BALANCE_dj/" tstamps="/02bb76dd-295c-496a-ac20-b005ea55e5b0/"/>
+      <tstamps>c833e4b0-3d4f-4a59-8ee9-3cec3e2c0803 3efce743-f63c-4123-845f-719f04a98e10 29b56f18-698e-45d4-b7d3-43e36ea30f91</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>TL082</value>
+      <footprint>huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl081.pdf</datasheet>
+      <description>Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</description>
+      <fields>
+        <field name="Footprint">huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl081.pdf</field>
+        <field name="Description">Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</field>
+      </fields>
+      <libsource lib="tl082" part="TL082" description="Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"/>
+      <property name="Sheetname" value="BALANCE_dj"/>
+      <property name="Sheetfile" value="BALANCE_dj_sch.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
+      <sheetpath names="/BALANCE_dj/" tstamps="/02bb76dd-295c-496a-ac20-b005ea55e5b0/"/>
+      <tstamps>f290bc42-cb27-4d5c-af4f-e18d4256fcec e4b7a36c-8fda-468b-8b9e-76c20f371131 22735bfc-830b-481d-83eb-0e735611e394</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10u</value>
+      <footprint>huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="c" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="amplificador_auriculares"/>
+      <property name="Sheetfile" value="amplificador_auriculares.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/amplificador_auriculares/" tstamps="/f09ea02c-637d-4109-8de1-398fc0c9440b/"/>
+      <tstamps>09dbd1e3-68b6-4551-947a-4a6d8060cf32</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>22u</value>
+      <footprint>huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="c" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="amplificador_auriculares"/>
+      <property name="Sheetfile" value="amplificador_auriculares.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/amplificador_auriculares/" tstamps="/f09ea02c-637d-4109-8de1-398fc0c9440b/"/>
+      <tstamps>38faa61b-445f-43a7-a485-022d0b5d0a39</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148W</value>
+      <footprint>huellas_mm:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <description>75V 0.15A Fast Switching Diode, SOD-123</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">huellas_mm:D_SOD-123</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85748/1n4148w.pdf</field>
+        <field name="Description">75V 0.15A Fast Switching Diode, SOD-123</field>
+      </fields>
+      <libsource lib="1n4148w" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="amplificador_auriculares"/>
+      <property name="Sheetfile" value="amplificador_auriculares.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*SOD?123*"/>
+      <sheetpath names="/amplificador_auriculares/" tstamps="/f09ea02c-637d-4109-8de1-398fc0c9440b/"/>
+      <tstamps>c0bd2c6b-57d2-46d2-9a49-0b8d8e50ed53</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148W</value>
+      <footprint>huellas_mm:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <description>75V 0.15A Fast Switching Diode, SOD-123</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">huellas_mm:D_SOD-123</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85748/1n4148w.pdf</field>
+        <field name="Description">75V 0.15A Fast Switching Diode, SOD-123</field>
+      </fields>
+      <libsource lib="1n4148w" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="amplificador_auriculares"/>
+      <property name="Sheetfile" value="amplificador_auriculares.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*SOD?123*"/>
+      <sheetpath names="/amplificador_auriculares/" tstamps="/f09ea02c-637d-4109-8de1-398fc0c9440b/"/>
+      <tstamps>d2cc468a-faf0-4371-bb47-66f7634c0fb4</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC807</value>
+      <footprint>huellas_mm:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC808-D.pdf</datasheet>
+      <description>0.8A Ic, 45V Vce, PNP Transistor, SOT-23</description>
+      <fields>
+        <field name="Footprint">huellas_mm:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC808-D.pdf</field>
+        <field name="Description">0.8A Ic, 45V Vce, PNP Transistor, SOT-23</field>
+      </fields>
+      <libsource lib="bc807" part="BC807" description="0.8A Ic, 45V Vce, PNP Transistor, SOT-23"/>
+      <property name="Sheetname" value="amplificador_auriculares"/>
+      <property name="Sheetfile" value="amplificador_auriculares.kicad_sch"/>
+      <property name="ki_keywords" value="PNP Transistor"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/amplificador_auriculares/" tstamps="/f09ea02c-637d-4109-8de1-398fc0c9440b/"/>
+      <tstamps>90d22953-e45a-480f-a812-06eb3c6b8529</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BC817</value>
+      <footprint>huellas_mm:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <fields>
+        <field name="Footprint">huellas_mm:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC818-D.pdf</field>
+        <field name="Description">0.8A Ic, 45V Vce, NPN Transistor, SOT-23</field>
+      </fields>
+      <libsource lib="bc817" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value="amplificador_auriculares"/>
+      <property name="Sheetfile" value="amplificador_auriculares.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/amplificador_auriculares/" tstamps="/f09ea02c-637d-4109-8de1-398fc0c9440b/"/>
+      <tstamps>36e25d5d-16db-48e6-b868-933fd3219d9c</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>71.2k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="amplificador_auriculares"/>
+      <property name="Sheetfile" value="amplificador_auriculares.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/amplificador_auriculares/" tstamps="/f09ea02c-637d-4109-8de1-398fc0c9440b/"/>
+      <tstamps>e70428fe-92e2-4981-9bb0-7989af1ede8d</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>R</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="amplificador_auriculares"/>
+      <property name="Sheetfile" value="amplificador_auriculares.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/amplificador_auriculares/" tstamps="/f09ea02c-637d-4109-8de1-398fc0c9440b/"/>
+      <tstamps>7c0461b7-e1a6-40f6-9628-1c55e6915b22</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="amplificador_auriculares"/>
+      <property name="Sheetfile" value="amplificador_auriculares.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/amplificador_auriculares/" tstamps="/f09ea02c-637d-4109-8de1-398fc0c9440b/"/>
+      <tstamps>0ff81c30-efaf-4685-b19c-051671a7ab3c</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>1k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="amplificador_auriculares"/>
+      <property name="Sheetfile" value="amplificador_auriculares.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/amplificador_auriculares/" tstamps="/f09ea02c-637d-4109-8de1-398fc0c9440b/"/>
+      <tstamps>596cf9e5-2ef2-4596-a44c-34169d840bae</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>1k</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="amplificador_auriculares"/>
+      <property name="Sheetfile" value="amplificador_auriculares.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/amplificador_auriculares/" tstamps="/f09ea02c-637d-4109-8de1-398fc0c9440b/"/>
+      <tstamps>6e60ee9d-6ca8-4fd9-8fbd-bd24c6dd0e16</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>1</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="amplificador_auriculares"/>
+      <property name="Sheetfile" value="amplificador_auriculares.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/amplificador_auriculares/" tstamps="/f09ea02c-637d-4109-8de1-398fc0c9440b/"/>
+      <tstamps>2a0846b3-940d-4b95-abde-94edc26005f6</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>1</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="amplificador_auriculares"/>
+      <property name="Sheetfile" value="amplificador_auriculares.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/amplificador_auriculares/" tstamps="/f09ea02c-637d-4109-8de1-398fc0c9440b/"/>
+      <tstamps>08af6dce-8211-489b-9884-787db2f2a2e8</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>33</value>
+      <footprint>huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="r" part="R" description="Resistor"/>
+      <property name="Sheetname" value="amplificador_auriculares"/>
+      <property name="Sheetfile" value="amplificador_auriculares.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/amplificador_auriculares/" tstamps="/f09ea02c-637d-4109-8de1-398fc0c9440b/"/>
+      <tstamps>1e7f0816-1250-494c-80c3-22a756f02d38</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TL082</value>
+      <footprint>huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl081.pdf</datasheet>
+      <description>Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</description>
+      <fields>
+        <field name="Footprint">huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl081.pdf</field>
+        <field name="Description">Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</field>
+      </fields>
+      <libsource lib="tl082" part="TL082" description="Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"/>
+      <property name="Sheetname" value="amplificador_auriculares"/>
+      <property name="Sheetfile" value="amplificador_auriculares.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
+      <sheetpath names="/amplificador_auriculares/" tstamps="/f09ea02c-637d-4109-8de1-398fc0c9440b/"/>
+      <tstamps>780bde95-0497-48c8-b7f5-934cb154497f 9c9c164b-08d2-42a2-a4da-4ede84387f41 12463835-0373-4523-8c9a-557e27fd8045</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="1n4148w" part="1N4148W">
+      <description>75V 0.15A Fast Switching Diode, SOD-123</description>
+      <docs>https://www.vishay.com/docs/85748/1n4148w.pdf</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148W</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85748/1n4148w.pdf</field>
+        <field name="Description">75V 0.15A Fast Switching Diode, SOD-123</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BAT46W" part="BAT46W">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BAT46W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Diotec Semiconductor</field>
+        <field name="Description_1">
+                        
+                            Schottky, SOD-123, 100V, 0.15A, 150°C
+                        
+</field>
+        <field name="Package">SOD-123 Diotec</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/BAT46W/Diotec/view-part/?ref=snap</field>
+        <field name="MP">BAT46W</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/BAT46W/Diotec/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bc807" part="BC807">
+      <description>0.8A Ic, 45V Vce, PNP Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC808-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC807</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC808-D.pdf</field>
+        <field name="Description">0.8A Ic, 45V Vce, PNP Transistor, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bc817" part="BC817">
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC818-D.pdf</field>
+        <field name="Description">0.8A Ic, 45V Vce, NPN Transistor, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="c" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="c_polarized" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn_01x02_socket" part="Conn_01x02_Socket">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Socket</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn_01x03_socket" part="Conn_01x03_Socket">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Socket</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="r" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="r_potentiometer" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Potentiometer</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tl082" part="TL082">
+      <description>Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl081.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL082</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl081.pdf</field>
+        <field name="Description">Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="1n4148w">
+      <uri>C:/Users/mario/Desktop/mesa_de_mezclas/libreria_simbolos_mm/1n4148w.kicad_sym</uri>
+    </library>
+    <library logical="BAT46W">
+      <uri>C:/Users/mario/Desktop/mesa_de_mezclas/libreria_simbolos_mm/BAT46W.kicad_sym</uri>
+    </library>
+    <library logical="bc807">
+      <uri>C:/Users/mario/Desktop/mesa_de_mezclas/libreria_simbolos_mm/bc807.kicad_sym</uri>
+    </library>
+    <library logical="bc817">
+      <uri>C:/Users/mario/Desktop/mesa_de_mezclas/libreria_simbolos_mm/bc817.kicad_sym</uri>
+    </library>
+    <library logical="c">
+      <uri>C:/Users/mario/Desktop/mesa_de_mezclas/libreria_simbolos_mm/c.kicad_sym</uri>
+    </library>
+    <library logical="c_polarized">
+      <uri>C:/Users/mario/Desktop/mesa_de_mezclas/libreria_simbolos_mm/c_polarized.kicad_sym</uri>
+    </library>
+    <library logical="conn_01x02_socket">
+      <uri>C:/Users/mario/Desktop/mesa_de_mezclas/libreria_simbolos_mm/conn_01x02_socket.kicad_sym</uri>
+    </library>
+    <library logical="conn_01x03_socket">
+      <uri>C:/Users/mario/Desktop/mesa_de_mezclas/libreria_simbolos_mm/conn_01x03_socket.kicad_sym</uri>
+    </library>
+    <library logical="r">
+      <uri>C:/Users/mario/Desktop/mesa_de_mezclas/libreria_simbolos_mm/r.kicad_sym</uri>
+    </library>
+    <library logical="r_potentiometer">
+      <uri>C:/Users/mario/Desktop/mesa_de_mezclas/libreria_simbolos_mm/r_potentiometer.kicad_sym</uri>
+    </library>
+    <library logical="tl082">
+      <uri>C:/Users/mario/Desktop/mesa_de_mezclas/libreria_simbolos_mm/tl082.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="-VCC">
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U13" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U7" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U8" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U9" pin="4" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="2" name="/BALANCE_dj/ENTRADA_dj_ch1">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="RV5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV7" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="output"/>
+    </net>
+    <net code="3" name="/BALANCE_dj/ENTRADA_dj_ch2">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="RV6" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV8" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="7" pintype="output"/>
+    </net>
+    <net code="4" name="/BALANCE_dj/SALIDA_dj_sin_amplificar">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U7" pin="7" pintype="output"/>
+    </net>
+    <net code="5" name="/BALANCE_publico/SALIDA_PUBLICO">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="RV9" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U7" pin="1" pintype="output"/>
+    </net>
+    <net code="6" name="/amplificador_auriculares/salida_amplificador_auriculares">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="RV7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U4" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U8" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U8" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U9" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="RV3" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="RV3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="RV4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="RV5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="7" pintype="output"/>
+    </net>
+    <net code="17" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="RV6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="7" pintype="output"/>
+    </net>
+    <net code="18" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="RV7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="7" pintype="output"/>
+    </net>
+    <net code="19" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="RV8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U9" pin="7" pintype="output"/>
+    </net>
+    <net code="20" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="23" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J1-Pin_1)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="RV9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="7" pintype="output"/>
+    </net>
+    <net code="25" name="Net-(J2-Pin_1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(J5-Pin_1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(J8-Pin_1)">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U13" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(J8-Pin_3)">
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U12" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(Q1-C)">
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(Q2-E)">
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="RV4" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="RV4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(U1A-+)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="38" name="Net-(U1A--)">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(U2A--)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(U2B--)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(U3A-+)">
+      <node ref="RV5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="42" name="Net-(U3A--)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="output"/>
+      <node ref="U3" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="43" name="Net-(U3B--)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(U4A-+)">
+      <node ref="RV6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(U4A--)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pintype="output"/>
+      <node ref="U4" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(U4B--)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(U5A-+)">
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pintype="output"/>
+      <node ref="U5" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(U5A--)">
+      <node ref="RV9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(U5B-+)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(U7A-+)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(U7A--)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(U7B-+)">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(U7B--)">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(U8A--)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U8" pin="1" pintype="output"/>
+      <node ref="U8" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(U8B--)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(U9A-+)">
+      <node ref="RV8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="57" name="Net-(U9A--)">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U9" pin="1" pintype="output"/>
+      <node ref="U9" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="58" name="Net-(U9B--)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="59" name="VCC">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U4" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U7" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U8" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U9" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="60" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pintype="output"/>
+    </net>
+  </nets>
+</export>

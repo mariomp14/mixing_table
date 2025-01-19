@@ -1,0 +1,3572 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f254ff75-9289-4eab-849c-823468afd764")
+	(paper "A4")
+	(lib_symbols
+		(symbol "c:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "r:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "r_potentiometer:R_Potentiometer"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "tl082:TL082"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TL082"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+				(at 1.524 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL082_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL082_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL082_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 167.64 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4508d85f-19e0-4618-b5fa-4c3edc67b8e9")
+	)
+	(junction
+		(at 222.25 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48dba077-55c0-4e10-8c65-32dffbb21a63")
+	)
+	(junction
+		(at 203.2 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48dfb1f5-0ec9-4458-bc74-3b2cbbb0a543")
+	)
+	(junction
+		(at 203.2 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "491f3693-02e6-493e-88eb-1b8c1ff59ec1")
+	)
+	(junction
+		(at 187.96 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a7ffa80-2b03-46f6-bd6b-275b07d0a6a6")
+	)
+	(junction
+		(at 238.76 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "535950f9-1597-4cf5-b4ff-1d0a7bda1a5f")
+	)
+	(junction
+		(at 209.55 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e8ea37b-53ca-4954-9bb9-06c42e80a151")
+	)
+	(junction
+		(at 181.61 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76552fc8-1efc-420d-911c-5ee3f64e3695")
+	)
+	(junction
+		(at 217.17 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "965e3cfe-faab-4760-8673-2484462bd907")
+	)
+	(junction
+		(at 146.05 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a19b9ce7-5e07-4eee-8599-a06f6ea1e731")
+	)
+	(junction
+		(at 181.61 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae6c6860-aa1d-4b04-a005-e443da18eefc")
+	)
+	(junction
+		(at 209.55 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8e53ce5-3ef5-4d81-81f5-344daf8aab71")
+	)
+	(junction
+		(at 173.99 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c60e6595-2db3-4f6a-a61b-21507a0c6b37")
+	)
+	(junction
+		(at 187.96 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1cfa8f4-bcf8-401b-b0c9-b26d00de99a9")
+	)
+	(junction
+		(at 208.28 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6511c48-bffb-42f9-bdae-702141e691e1")
+	)
+	(junction
+		(at 214.63 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcd73edf-be2c-4350-9eec-34d1e8d031db")
+	)
+	(wire
+		(pts
+			(xy 203.2 69.85) (xy 203.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049814b0-51aa-4dd7-a360-655ce92e5b81")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 167.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ee4d79-8dda-47dd-a021-f7fd5cad3fb4")
+	)
+	(wire
+		(pts
+			(xy 181.61 69.85) (xy 181.61 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c45f48a-7a0f-4803-a4a4-d5393d09c646")
+	)
+	(wire
+		(pts
+			(xy 200.66 132.08) (xy 209.55 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff4bbae-3464-4a73-9a0f-e5db950e6788")
+	)
+	(wire
+		(pts
+			(xy 214.63 148.59) (xy 209.55 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1150346c-bbe0-449f-930c-51be8953409d")
+	)
+	(wire
+		(pts
+			(xy 160.02 55.88) (xy 208.28 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130c6cee-4c63-4a48-ab17-b52d2f05dcaa")
+	)
+	(wire
+		(pts
+			(xy 217.17 148.59) (xy 217.17 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1958007f-7f6e-454d-8258-d85a8ddd8bb6")
+	)
+	(wire
+		(pts
+			(xy 209.55 148.59) (xy 203.2 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc9c93b-aad9-41fe-8683-99eb1cdc70c1")
+	)
+	(wire
+		(pts
+			(xy 215.9 77.47) (xy 215.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e7bfaee-19de-4218-8f05-90fecef6f9a9")
+	)
+	(wire
+		(pts
+			(xy 214.63 148.59) (xy 217.17 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb669e1-4fce-40c3-a055-d60cee13e27d")
+	)
+	(wire
+		(pts
+			(xy 203.2 69.85) (xy 194.31 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30229d04-3363-4d41-9e28-d82f9d5b84fe")
+	)
+	(wire
+		(pts
+			(xy 152.4 138.43) (xy 152.4 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d89fb3-471d-4478-bd68-6b0bc32a3727")
+	)
+	(wire
+		(pts
+			(xy 209.55 140.97) (xy 209.55 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c457746-8ac9-4d5f-bf5c-ca79a1cb7479")
+	)
+	(wire
+		(pts
+			(xy 146.05 77.47) (xy 146.05 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c938f6c-0e03-466d-b6c8-e06d5f92b722")
+	)
+	(wire
+		(pts
+			(xy 158.75 143.51) (xy 158.75 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42cfb614-299f-4e1a-a5b9-172f0fc7d80e")
+	)
+	(wire
+		(pts
+			(xy 215.9 106.68) (xy 217.17 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569cbd46-21fd-45a0-8253-20e2fe6144be")
+	)
+	(wire
+		(pts
+			(xy 209.55 132.08) (xy 209.55 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a4da5a-27bf-4a1d-b68d-04a160be51e7")
+	)
+	(wire
+		(pts
+			(xy 146.05 77.47) (xy 152.4 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589830a8-9f4f-4e58-aec5-9b25776bd1a9")
+	)
+	(wire
+		(pts
+			(xy 173.99 139.7) (xy 173.99 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e59d4da-7d38-4ec0-8adc-4bdd9f4a8a50")
+	)
+	(wire
+		(pts
+			(xy 234.95 118.11) (xy 238.76 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623343aa-9601-49c6-80bc-d56060aafa01")
+	)
+	(wire
+		(pts
+			(xy 167.64 68.58) (xy 167.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623fb309-956e-4b68-b567-aab8b8fe7396")
+	)
+	(wire
+		(pts
+			(xy 146.05 67.31) (xy 146.05 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6963610f-6704-4e48-838e-72799a08c34d")
+	)
+	(wire
+		(pts
+			(xy 187.96 132.08) (xy 193.04 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e65351f-0ba2-4167-a5a7-0cd5be0afb82")
+	)
+	(wire
+		(pts
+			(xy 209.55 140.97) (xy 200.66 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71690184-5d5e-4cd8-a5d6-4c5abdec8059")
+	)
+	(wire
+		(pts
+			(xy 162.56 138.43) (xy 152.4 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71aac265-9a55-4aae-8fe8-2e6100956880")
+	)
+	(wire
+		(pts
+			(xy 156.21 67.31) (xy 146.05 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d9b867-96aa-472f-95e5-5bca1ce0d575")
+	)
+	(wire
+		(pts
+			(xy 158.75 139.7) (xy 173.99 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76737e7b-0538-4d3b-a467-43457744859e")
+	)
+	(wire
+		(pts
+			(xy 139.7 127) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f55a8ce-70aa-4589-aca4-b51a2f770f50")
+	)
+	(wire
+		(pts
+			(xy 238.76 118.11) (xy 238.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875e602a-7ca9-49a6-990b-5cc949208a3e")
+	)
+	(wire
+		(pts
+			(xy 181.61 69.85) (xy 186.69 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9184b29c-279b-4eab-951e-6eb0818f5c1d")
+	)
+	(wire
+		(pts
+			(xy 214.63 127) (xy 214.63 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9715f225-ac86-489a-862e-59b4090d0568")
+	)
+	(wire
+		(pts
+			(xy 203.2 60.96) (xy 203.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c99ca3-3043-44e8-9d13-e2985ae4f72c")
+	)
+	(wire
+		(pts
+			(xy 208.28 77.47) (xy 203.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ba4f8b-c758-42d2-be75-249c66ef2e7e")
+	)
+	(wire
+		(pts
+			(xy 223.52 85.09) (xy 223.52 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac3b398-bd37-4666-8512-307c39048334")
+	)
+	(wire
+		(pts
+			(xy 152.4 148.59) (xy 158.75 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf6bbfe-c6b6-4385-89e8-6d754c78cbab")
+	)
+	(wire
+		(pts
+			(xy 217.17 111.76) (xy 217.17 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae772a11-8bb6-486e-a02e-5c5a160d4c5b")
+	)
+	(wire
+		(pts
+			(xy 222.25 106.68) (xy 223.52 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9f4c2f-59af-487f-b27e-d8e66693d16c")
+	)
+	(wire
+		(pts
+			(xy 156.21 59.69) (xy 156.21 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b326d4cc-b64f-4ba5-a147-d2900eef219a")
+	)
+	(wire
+		(pts
+			(xy 187.96 146.05) (xy 187.96 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b497058f-46b7-42e6-811c-aa7f1cdd675d")
+	)
+	(wire
+		(pts
+			(xy 222.25 106.68) (xy 222.25 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b56cbc56-70c4-4f24-8f8c-fdd0462c8531")
+	)
+	(wire
+		(pts
+			(xy 194.31 60.96) (xy 203.2 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b825cdeb-f52f-43a9-aad2-b05291a54d7f")
+	)
+	(wire
+		(pts
+			(xy 152.4 72.39) (xy 152.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7fcc10-b2e3-4b3f-bd7d-b06d23758f0a")
+	)
+	(wire
+		(pts
+			(xy 181.61 60.96) (xy 186.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26e60af-5955-4761-8a65-9edc5fc1f555")
+	)
+	(wire
+		(pts
+			(xy 181.61 146.05) (xy 187.96 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc56f54b-8025-4e3f-94b9-50f0639bba2c")
+	)
+	(wire
+		(pts
+			(xy 162.56 130.81) (xy 162.56 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda3f071-27b9-4df6-88a8-fb8085b4d44d")
+	)
+	(wire
+		(pts
+			(xy 208.28 55.88) (xy 208.28 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefdf327-953b-478b-bea5-12ba24276ae2")
+	)
+	(wire
+		(pts
+			(xy 175.26 74.93) (xy 181.61 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6eed012-b166-4107-be0f-584161811ce2")
+	)
+	(wire
+		(pts
+			(xy 187.96 140.97) (xy 187.96 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f2fa27-1bc2-4354-ba0e-9861ab6fee99")
+	)
+	(wire
+		(pts
+			(xy 217.17 106.68) (xy 222.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbebe5b2-4699-4f99-99ee-945702c98d3f")
+	)
+	(wire
+		(pts
+			(xy 222.25 118.11) (xy 227.33 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf53335-bc45-4cbc-bf0f-e15732641660")
+	)
+	(wire
+		(pts
+			(xy 208.28 77.47) (xy 215.9 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf03015-4a18-4cee-ae86-4630ce69d734")
+	)
+	(wire
+		(pts
+			(xy 152.4 55.88) (xy 148.59 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5995cf-9eba-4b72-8e13-d770077f1bf2")
+	)
+	(wire
+		(pts
+			(xy 238.76 104.14) (xy 246.38 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded6e725-2503-4a5a-bf52-554a42e7d741")
+	)
+	(wire
+		(pts
+			(xy 203.2 77.47) (xy 196.85 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c79b71-ed11-412e-8071-dd4abafc9eea")
+	)
+	(wire
+		(pts
+			(xy 223.52 95.25) (xy 223.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e670bfb5-c09e-4d6a-abbb-56cc411fc822")
+	)
+	(wire
+		(pts
+			(xy 187.96 140.97) (xy 193.04 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea051587-4480-46b5-be73-74f4e15f0c03")
+	)
+	(wire
+		(pts
+			(xy 215.9 99.06) (xy 215.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eceb466d-1e3b-4897-9580-8b4856fb9d5a")
+	)
+	(wire
+		(pts
+			(xy 181.61 74.93) (xy 181.61 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed20d256-1661-410f-bcc2-0f50a6b3a62d")
+	)
+	(wire
+		(pts
+			(xy 166.37 127) (xy 214.63 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff085545-5ddb-4310-9697-ab64b9ebd209")
+	)
+	(hierarchical_label "ENTRADA_dj_ch2"
+		(shape input)
+		(at 139.7 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6276e97-38ba-4453-b881-d04944757ac8")
+	)
+	(hierarchical_label "ENTRADA_dj_ch1"
+		(shape input)
+		(at 148.59 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd253a59-5b95-47a6-b816-eecd7a84c9a5")
+	)
+	(hierarchical_label "SALIDA_dj_sin_amplificar"
+		(shape input)
+		(at 246.38 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1fc6b1c-da66-4363-9ed0-7acd890558dc")
+	)
+	(symbol
+		(lib_id "r:R")
+		(at 171.45 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07119a15-4f6d-4177-909b-31c7d02cf970")
+		(property "Reference" "R19"
+			(at 171.45 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 171.45 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 171.45 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33ace8bf-a393-4b0f-9485-6e2251f10f0f")
+		)
+		(pin "1"
+			(uuid "63eaf028-51dd-46ef-b21b-dcd80410fed6")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "c:C")
+		(at 196.85 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20086e93-1671-44ca-824f-b6e0e4b6189e")
+		(property "Reference" "C10"
+			(at 196.85 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100p"
+			(at 196.85 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 200.66 131.1148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 196.85 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf0af8fa-c520-4aac-a885-003b2e4f6f5b")
+		)
+		(pin "2"
+			(uuid "8c353cf3-7bc2-4168-ad5c-ba2204bfff5f")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tl082:TL082")
+		(at 195.58 148.59 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22735bfc-830b-481d-83eb-0e735611e394")
+		(property "Reference" "U9"
+			(at 195.58 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 195.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 195.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 197.104 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 195.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "aee124df-dd14-4bbc-b257-3dfbb8b0bc3d")
+		)
+		(pin "5"
+			(uuid "24ed157f-0a46-438b-8f9c-9d88e53ce4de")
+		)
+		(pin "4"
+			(uuid "d724ecaf-00c3-418a-ad65-1c5fe029a0b6")
+		)
+		(pin "8"
+			(uuid "8dac441f-55d3-4e55-b277-137b069c43b3")
+		)
+		(pin "1"
+			(uuid "cd572efa-8ba6-4080-b63e-ed0a6bf72364")
+		)
+		(pin "6"
+			(uuid "58feff70-217d-4b62-a7d0-9773f723550f")
+		)
+		(pin "7"
+			(uuid "4886f485-7dde-44ab-bc69-87d20f7b9f77")
+		)
+		(pin "2"
+			(uuid "7ed650c1-9c5f-440f-b49a-8a4f0801af84")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "U9")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 41.91 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27ad3e15-9b43-4b7d-b2b0-576b28ed0732")
+		(property "Reference" "#PWR052"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VCC"
+			(at 38.1 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 41.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e884969-0f7b-4141-bdbe-a2fc65219726")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tl082:TL082")
+		(at 44.45 40.64 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29b56f18-698e-45d4-b7d3-43e36ea30f91")
+		(property "Reference" "U8"
+			(at 43.18 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL082"
+			(at 43.18 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 44.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 45.974 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 44.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "aee124df-dd14-4bbc-b257-3dfbb8b0bc40")
+		)
+		(pin "5"
+			(uuid "af839519-5252-4813-8642-3f41ad91e439")
+		)
+		(pin "4"
+			(uuid "103ee0ac-bb80-4061-b815-1daba73849c6")
+		)
+		(pin "8"
+			(uuid "3c07faad-1ade-4b8f-b22c-3bfd175e4276")
+		)
+		(pin "1"
+			(uuid "cd572efa-8ba6-4080-b63e-ed0a6bf72367")
+		)
+		(pin "6"
+			(uuid "9b75e89e-03fd-4b61-97cf-1381b15a6fcb")
+		)
+		(pin "7"
+			(uuid "89add517-7771-4000-a589-abf318d33f28")
+		)
+		(pin "2"
+			(uuid "7ed650c1-9c5f-440f-b49a-8a4f0801af87")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "U8")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tl082:TL082")
+		(at 160.02 74.93 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3efce743-f63c-4123-845f-719f04a98e10")
+		(property "Reference" "U8"
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 160.02 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 161.544 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 160.02 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2c413350-6e71-4a40-bc9f-12b909024195")
+		)
+		(pin "5"
+			(uuid "af839519-5252-4813-8642-3f41ad91e43a")
+		)
+		(pin "4"
+			(uuid "d724ecaf-00c3-418a-ad65-1c5fe029a0ba")
+		)
+		(pin "8"
+			(uuid "8dac441f-55d3-4e55-b277-137b069c43b7")
+		)
+		(pin "1"
+			(uuid "b74dda60-aa65-4605-afe2-556eaa09909a")
+		)
+		(pin "6"
+			(uuid "9b75e89e-03fd-4b61-97cf-1381b15a6fcc")
+		)
+		(pin "7"
+			(uuid "89add517-7771-4000-a589-abf318d33f29")
+		)
+		(pin "2"
+			(uuid "047bcb30-22f8-46a2-b285-8200b2019c57")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 48.26 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44e95d66-9b6c-4144-8751-1b66a7c0e052")
+		(property "Reference" "#PWR055"
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VCC"
+			(at 44.45 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 48.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ac56482-2707-4726-b34c-10ad8541d88f")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "r_potentiometer:R_Potentiometer")
+		(at 156.21 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "464f0e4f-f5a2-4327-ab69-828b02791d21")
+		(property "Reference" "RV7"
+			(at 156.21 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 156.21 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1ff69d0c-3b45-46b9-84a3-f438a5ff6d74")
+		)
+		(pin "1"
+			(uuid "5e33a4fb-3773-477c-adbf-9a3f07aee9fb")
+		)
+		(pin "2"
+			(uuid "c00cc50d-ab4e-4443-b1cf-b234c8efcafb")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "RV7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 48.26 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "476c7300-98af-48e7-aa23-a3b9e75790e5")
+		(property "Reference" "#PWR054"
+			(at 52.07 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 44.45 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 48.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d129fcf8-cbe1-4111-b451-c5dd0d38bb0c")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "r:R")
+		(at 177.8 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50f0b921-8f0d-46ad-a289-2b2b36eedff0")
+		(property "Reference" "R21"
+			(at 177.8 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 177.8 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 177.8 147.828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2118f86d-9502-463f-be2f-0ff2e1cfa993")
+		)
+		(pin "1"
+			(uuid "4df85268-b987-4ddc-bb47-d05b8b57d9df")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "r:R")
+		(at 223.52 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "601ad02a-8454-4f24-8808-e12a90ee5ecb")
+		(property "Reference" "R25"
+			(at 218.186 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 219.71 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 225.298 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf2ad013-966f-4605-833a-4e6a72f845e5")
+		)
+		(pin "1"
+			(uuid "58bb643d-1c3e-4cd9-99d2-301d85c7d11e")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "r:R")
+		(at 190.5 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "639bc931-b4f9-48e9-b5ed-be936f70d857")
+		(property "Reference" "R20"
+			(at 190.754 64.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 190.5 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 190.5 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "281021da-4953-4e99-a2a2-d8a4f1650115")
+		)
+		(pin "1"
+			(uuid "e695b7bd-4ea3-4a15-bd06-aef010547447")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6403b02c-c4ab-46c0-b372-339d76beb0c7")
+		(property "Reference" "#PWR023"
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15598ec8-7713-4b6a-a1ad-6274175f7528")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "r:R")
+		(at 215.9 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ce12947-85ab-4a31-b2bb-1c5e129a9d2a")
+		(property "Reference" "R24"
+			(at 210.566 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 212.09 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 217.678 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 215.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b8653b2-8ea2-46ae-a8dc-b8a0ddc2b855")
+		)
+		(pin "1"
+			(uuid "935488dd-ddec-4174-a99f-134066de8998")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "r:R")
+		(at 196.85 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "742e5c4e-1d8d-427d-be05-59e732048973")
+		(property "Reference" "R22"
+			(at 197.104 135.636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 196.85 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 196.85 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6aa38aed-a0d5-4d86-b66b-cf14ffef32ff")
+		)
+		(pin "1"
+			(uuid "13e46bfa-f7fe-4a5a-ae44-ff5343d8f9a3")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "c:C")
+		(at 190.5 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79d4dae4-4966-4367-a59c-126de49f1fef")
+		(property "Reference" "C9"
+			(at 190.5 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100p"
+			(at 190.5 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 194.31 59.9948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72e421f6-2b27-4a7a-a552-c3cf9f8b1b43")
+		)
+		(pin "2"
+			(uuid "05f3f6bd-cb78-4a3d-aa9b-6ba290a48778")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tl082:TL082")
+		(at 231.14 104.14 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9285444e-076e-406c-aa59-9d14f26da925")
+		(property "Reference" "U7"
+			(at 231.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 231.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 232.664 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "aaa07d5d-14d7-49ab-b25b-9e3d1e1a5d11")
+		)
+		(pin "5"
+			(uuid "ba1a88a5-b47d-48de-9e0d-8a8f9c3c298f")
+		)
+		(pin "1"
+			(uuid "5ead2067-9262-476d-9f92-d36eb8a50413")
+		)
+		(pin "2"
+			(uuid "35c652cb-4646-4823-91b7-b18cb33b7ae2")
+		)
+		(pin "6"
+			(uuid "14d84376-25c1-42fa-a762-e592b8ba5664")
+		)
+		(pin "4"
+			(uuid "d2f22aa9-2a27-437b-8811-b6ee58d322f6")
+		)
+		(pin "3"
+			(uuid "34235c74-b1f6-49f1-8c0d-adae293ca985")
+		)
+		(pin "7"
+			(uuid "b7120365-d415-46fa-bdc1-ac8642e4e4fb")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "U7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "r:R")
+		(at 217.17 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c11d97e-04ea-431e-b3f2-42296f60a8d0")
+		(property "Reference" "R23"
+			(at 211.836 115.316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 213.36 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 218.948 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 217.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11b46998-d3af-4461-b259-5497eb5a78ba")
+		)
+		(pin "1"
+			(uuid "c8e0440b-8ff6-41b9-b4c9-0dc93c3cba31")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "r_potentiometer:R_Potentiometer")
+		(at 162.56 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dc85adc-aa30-4625-bd46-0726933124d5")
+		(property "Reference" "RV8"
+			(at 162.56 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 162.56 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 162.56 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 162.56 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c93659eb-a41d-4c45-a869-aefecb6dbd8d")
+		)
+		(pin "1"
+			(uuid "558d3fb1-8431-444c-bec4-6814f75f399e")
+		)
+		(pin "2"
+			(uuid "419740b3-5d2e-4aa1-a307-af1759742767")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "RV8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4a40d6f-d40c-4440-9c8d-be02803c6d23")
+		(property "Reference" "#PWR021"
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17211d41-857b-4d9d-9bc0-20a6827d101f")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 41.91 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b230f6ab-4926-489e-b240-0fd9a2f4ddb7")
+		(property "Reference" "#PWR050"
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 38.1 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 41.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "541d030f-9cba-4d9f-88fa-8f0f1a27f5ae")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6d21730-9717-4c97-a5aa-8bb6936ef322")
+		(property "Reference" "#PWR024"
+			(at 187.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "376c4df7-18b9-4c7e-add7-21232f2714dc")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "r:R")
+		(at 231.14 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6c1c88d-cb77-4104-903d-3192bb4f2185")
+		(property "Reference" "R26"
+			(at 230.886 123.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 231.14 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 231.14 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 231.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0901aa2c-34d7-4c9c-a2d8-6909d53ea675")
+		)
+		(pin "1"
+			(uuid "93d5da6a-3192-434e-9d1d-6683e6db6005")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tl082:TL082")
+		(at 189.23 77.47 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c833e4b0-3d4f-4a59-8ee9-3cec3e2c0803")
+		(property "Reference" "U8"
+			(at 189.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 189.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 190.754 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 189.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "aee124df-dd14-4bbc-b257-3dfbb8b0bc3f")
+		)
+		(pin "5"
+			(uuid "fee1fe77-3cf1-4a4b-8ab3-89a02bc6df42")
+		)
+		(pin "4"
+			(uuid "d724ecaf-00c3-418a-ad65-1c5fe029a0b7")
+		)
+		(pin "8"
+			(uuid "8dac441f-55d3-4e55-b277-137b069c43b4")
+		)
+		(pin "1"
+			(uuid "cd572efa-8ba6-4080-b63e-ed0a6bf72366")
+		)
+		(pin "6"
+			(uuid "6dd39bfc-6116-4f5c-a039-9895b28cdeee")
+		)
+		(pin "7"
+			(uuid "15fa1899-467b-41ae-bc3d-2b1e76955152")
+		)
+		(pin "2"
+			(uuid "7ed650c1-9c5f-440f-b49a-8a4f0801af86")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "U8")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cffbdfc5-6e77-4b5d-9928-e4ae5e6664ea")
+		(property "Reference" "#PWR027"
+			(at 223.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18faa9e4-318c-4c1e-86a2-be8469595e4a")
+		)
+		(instances
+			(project ""
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tl082:TL082")
+		(at 50.8 111.76 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4b7a36c-8fda-468b-8b9e-76c20f371131")
+		(property "Reference" "U9"
+			(at 49.53 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL082"
+			(at 49.53 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 50.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 52.324 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 50.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "aee124df-dd14-4bbc-b257-3dfbb8b0bc3e")
+		)
+		(pin "5"
+			(uuid "af839519-5252-4813-8642-3f41ad91e437")
+		)
+		(pin "4"
+			(uuid "3cfa241c-4c6a-4bb7-ae29-865e205f1f1e")
+		)
+		(pin "8"
+			(uuid "cdba67ce-e960-4401-9fca-74855b99bfcf")
+		)
+		(pin "1"
+			(uuid "cd572efa-8ba6-4080-b63e-ed0a6bf72365")
+		)
+		(pin "6"
+			(uuid "9b75e89e-03fd-4b61-97cf-1381b15a6fc9")
+		)
+		(pin "7"
+			(uuid "89add517-7771-4000-a589-abf318d33f26")
+		)
+		(pin "2"
+			(uuid "7ed650c1-9c5f-440f-b49a-8a4f0801af85")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "U9")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tl082:TL082")
+		(at 166.37 146.05 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f290bc42-cb27-4d5c-af4f-e18d4256fcec")
+		(property "Reference" "U9"
+			(at 166.37 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 166.37 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "huellas_mm:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 166.37 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 167.894 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 166.37 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "26f2355d-e320-4c4e-862d-3d27abff6cc7")
+		)
+		(pin "5"
+			(uuid "af839519-5252-4813-8642-3f41ad91e438")
+		)
+		(pin "4"
+			(uuid "d724ecaf-00c3-418a-ad65-1c5fe029a0b8")
+		)
+		(pin "8"
+			(uuid "8dac441f-55d3-4e55-b277-137b069c43b5")
+		)
+		(pin "1"
+			(uuid "876e6d77-3cf8-4231-9ee5-0a75edec178f")
+		)
+		(pin "6"
+			(uuid "9b75e89e-03fd-4b61-97cf-1381b15a6fca")
+		)
+		(pin "7"
+			(uuid "89add517-7771-4000-a589-abf318d33f27")
+		)
+		(pin "2"
+			(uuid "07b4e668-fc51-495b-bc82-59bbe63defd3")
+		)
+		(instances
+			(project "mesa_mezclas"
+				(path "/9606afe8-4133-45ee-bd84-d58ebe12142a/02bb76dd-295c-496a-ac20-b005ea55e5b0"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

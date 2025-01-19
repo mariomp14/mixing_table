@@ -1,0 +1,310 @@
+
+**** 11/06/24 13:21:14 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-s1"  [ C:\Users\Usuario_UMA\Downloads\CREATIVA\mesa_de_mezclas-pspicefiles\schematic1\s1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "s1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Usuario_UMA\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 20 20000
+.STEP PARAM graves LIST 0 0.02 0.05 0.5 0.95 0.98 1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source MESA_DE_MEZCLAS
+C_CANAL1_C1         CANAL1_VIN CANAL1_N00354  2.2u  TC=0,0 
+C_CANAL1_C2         CANAL1_N00459 CANAL1_N00448  3.3n  TC=0,0 
+R_CANAL1_R1         CANAL1_N00354 CANAL1_N00320  10k TC=0,0 
+R_CANAL1_R2         CANAL1_N00324 ENTRADA_DJ_CH1  10k TC=0,0 
+R_CANAL1_R3         CANAL1_N00354 CANAL1_N00432  2.2k TC=0,0 
+R_CANAL1_R4         CANAL1_N00444 ENTRADA_DJ_CH1  2.2k TC=0,0 
+R_CANAL1_R5         CANAL1_N00382 CANAL1_N00448  9k TC=0,0 
+X_CANAL1_U1A         0 CANAL1_N00448 5 -5 ENTRADA_DJ_CH1 TL082/301/TI
+C_CANAL1_C3         CANAL1_N00320 CANAL1_N00324  33n  TC=0,0 
+X_CANAL1_R6         CANAL1_N00320 CANAL1_N00382 CANAL1_N00324 POT PARAMS: SET=
++ {graves} VALUE=100k
+X_CANAL1_R7         CANAL1_N00432 CANAL1_N00459 CANAL1_N00444 POT PARAMS: SET=1
++  VALUE=470k
+V_CANAL1_V1         CANAL1_VIN 0 DC 0Vdc AC 0.1Vac 
+C_CANAL2_C1         CANAL2_VIN2 CANAL2_N02102  2.2u  TC=0,0 
+R_CANAL2_R4         CANAL2_N02370 ENTRADA_DJ_CH2  2.2k TC=0,0 
+X_CANAL2_U1A         0 CANAL2_N02194 10 -10 ENTRADA_DJ_CH2 TL082/301/TI
+R_CANAL2_R3         CANAL2_N02102 CANAL2_N02364  2.2k TC=0,0 
+R_CANAL2_R1         CANAL2_N02102 CANAL2_N01984  10k TC=0,0 
+R_CANAL2_R5         CANAL2_N02150 CANAL2_N02194  9k TC=0,0 
+R_CANAL2_R2         CANAL2_N01994 ENTRADA_DJ_CH2  10k TC=0,0 
+X_CANAL2_R7         CANAL2_N02364 CANAL2_N02394 CANAL2_N02370 POT PARAMS: SET=0
++  VALUE=470k
+X_CANAL2_R6         CANAL2_N01984 CANAL2_N02150 CANAL2_N01994 POT PARAMS: SET=
++ {graves} VALUE=100k
+C_CANAL2_C2         CANAL2_N02394 CANAL2_N02194  3.3n  TC=0,0 
+C_CANAL2_C3         CANAL2_N01984 CANAL2_N01994  33n  TC=0,0 
+V_CANAL2_V1         CANAL2_VIN2 0 DC 0Vdc AC 0.1Vac 
+X_BALANCE_PUBLICO_U1A         0 BALANCE_PUBLICO_N01287 5 5 SALIDA_PUBLICO
++  TL082/301/TI
+R_BALANCE_PUBLICO_R1         ENTRADA_DJ_CH1 BALANCE_PUBLICO_N01287  10k TC=0,0 
+R_BALANCE_PUBLICO_R2         ENTRADA_DJ_CH2 BALANCE_PUBLICO_N01287  10k TC=0,0 
+X_BALANCE_DJ_U1A         0 BALANCE_DJ_N00498 5 5 SALIDA_DJ TL082/301/TI
+R_BALANCE_DJ_R1         ENTRADA_DJ_CH1 BALANCE_DJ_N00498  10k TC=0,0 
+R_BALANCE_DJ_R2         ENTRADA_DJ_CH2 BALANCE_DJ_N00498  10k TC=0,0 
+.PARAM  graves=0.5
+
+**** RESUMING s1.cir ****
+.END
+
+**** 11/06/24 13:21:14 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-s1"  [ C:\Users\Usuario_UMA\Downloads\CREATIVA\mesa_de_mezclas-pspicefiles\schematic1\s1.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_CANAL1_U1A.DX X_CANAL2_U1A.DX 
+          IS  800.000000E-18  800.000000E-18 
+
+
+               X_BALANCE_PUBLICO_U1A.DX 
+          IS  800.000000E-18 
+
+
+               X_BALANCE_DJ_U1A.DX 
+          IS  800.000000E-18 
+
+
+**** 11/06/24 13:21:14 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-s1"  [ C:\Users\Usuario_UMA\Downloads\CREATIVA\mesa_de_mezclas-pspicefiles\schematic1\s1.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_CANAL1_U1A.JX X_CANAL2_U1A.JX 
+               PJF             PJF             
+         VTO   -1              -1            
+        BETA  270.100000E-06  270.100000E-06 
+          IS   15.000000E-12   15.000000E-12 
+
+
+               X_BALANCE_PUBLICO_U1A.JX 
+               PJF             
+         VTO   -1            
+        BETA  270.100000E-06 
+          IS   15.000000E-12 
+
+
+               X_BALANCE_DJ_U1A.JX 
+               PJF             
+         VTO   -1            
+        BETA  270.100000E-06 
+          IS   15.000000E-12 
+
+
+Starting pseudo-transient algorithm.
+
+ERROR -- Convergence problem in bias point calculation
+
+
+  Last node voltages tried were:
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    5)    -.1179  (   -5)   -1.3720  (   10)     .6405  (  -10)    -.6153      
+
+(SALIDA_DJ)    -.1179                 (CANAL1_VIN)    0.0000                    
+
+(CANAL2_VIN2)    0.0000               (CANAL1_N00320)    -.1637                 
+
+(CANAL1_N00324)    -.5750             (CANAL1_N00354)    -.0088                 
+
+(CANAL1_N00382)    -.5750             (CANAL1_N00432)    -.0153                 
+
+(CANAL1_N00444)    -.7407             (CANAL1_N00448)    -.5622                 
+
+(CANAL1_N00459)    -.0153             (CANAL2_N01984)     .0017                 
+
+(CANAL2_N01994)     .0105             (CANAL2_N02102)-102.7E-06                 
+
+(CANAL2_N02150)     .0105             (CANAL2_N02194)     .0101                 
+
+(CANAL2_N02364)-43.40E-06             (CANAL2_N02370)     .0126                 
+
+(CANAL2_N02394)     .0126             (ENTRADA_DJ_CH1)    -.7441                
+
+(ENTRADA_DJ_CH2)     .0126            (SALIDA_PUBLICO)    -.1179                
+
+(X_CANAL1_U1A.6)   -4.9592            (X_CANAL1_U1A.7)    -.7549                
+
+(X_CANAL1_U1A.8)    -.7549            (X_CANAL1_U1A.9)    0.0000                
+
+(X_CANAL2_U1A.6)     .0257            (X_CANAL2_U1A.7)     .0203                
+
+(X_CANAL2_U1A.8)     .0203            (X_CANAL2_U1A.9)    0.0000                
+
+(X_CANAL1_U1A.10)    -.7417           (X_CANAL1_U1A.11)   -1.0150               
+
+(X_CANAL1_U1A.12)   -1.3083           (X_CANAL1_U1A.53)   -1.4571               
+
+(X_CANAL1_U1A.54)    -.0328           (X_CANAL1_U1A.90)    -.0435               
+
+(X_CANAL1_U1A.91)   15.2190           (X_CANAL1_U1A.92)  -15.2190               
+
+(X_CANAL1_U1A.99)    -.4535           (X_CANAL2_U1A.10)    -.2411               
+
+(X_CANAL2_U1A.11)    -.4057           (X_CANAL2_U1A.12)    -.4042               
+
+(X_CANAL2_U1A.53)    -.6988           (X_CANAL2_U1A.54)     .7240               
+
+(X_CANAL2_U1A.90)     .0313           (X_CANAL2_U1A.91)   15.2190               
+
+(X_CANAL2_U1A.92)  -15.2190           (X_CANAL2_U1A.99)     .0077               
+
+(BALANCE_DJ_N00498)    -.2450         (X_BALANCE_DJ_U1A.6)    -.9995            
+
+(X_BALANCE_DJ_U1A.7)   -1.0000        (X_BALANCE_DJ_U1A.8)   -1.0000            
+
+(X_BALANCE_DJ_U1A.9)    0.0000        (X_BALANCE_DJ_U1A.10)     .1229           
+
+(X_BALANCE_DJ_U1A.11)     .0535       (X_BALANCE_DJ_U1A.12)     .0445           
+
+(X_BALANCE_DJ_U1A.53)   -1.4571       (X_BALANCE_DJ_U1A.54)    1.2214           
+
+(X_BALANCE_DJ_U1A.90)    9.5117       (X_BALANCE_DJ_U1A.91)   15.2190           
+
+(X_BALANCE_DJ_U1A.92)  -15.2190       (X_BALANCE_DJ_U1A.99)    -.0718           
+
+(BALANCE_PUBLICO_N01287)    -.2450    (X_BALANCE_PUBLICO_U1A.6)   -1.2631       
+
+(X_BALANCE_PUBLICO_U1A.7)   -1.3256   (X_BALANCE_PUBLICO_U1A.8)   -1.3256       
+
+(X_BALANCE_PUBLICO_U1A.9)    0.0000   (X_BALANCE_PUBLICO_U1A.10)     .1229      
+
+(X_BALANCE_PUBLICO_U1A.11)     .0535  (X_BALANCE_PUBLICO_U1A.12)     .0445      
+
+(X_BALANCE_PUBLICO_U1A.53)   -1.4571  (X_BALANCE_PUBLICO_U1A.54)    1.2214      
+
+(X_BALANCE_PUBLICO_U1A.90)   -4.9014  (X_BALANCE_PUBLICO_U1A.91)   15.2190      
+
+(X_BALANCE_PUBLICO_U1A.92)  -15.2190  (X_BALANCE_PUBLICO_U1A.99)    -.0718  
+
+
+  These voltages failed to converge:
+
+    V(CANAL1_N00459)          =   -16.19mV  \   -15.34mV
+    V(CANAL1_N00448)          =  -563.00mV  \  -562.15mV
+    V(CANAL1_N00320)          =  -168.49mV  \  -163.72mV
+    V(CANAL1_N00324)          =  -579.76mV  \  -574.99mV
+    V(ENTRADA_DJ_CH1)         =  -760.39mV  \  -744.13mV
+    V(CANAL1_N00432)          =   -16.19mV  \   -15.34mV
+    V(CANAL1_N00444)          =  -756.92mV  \  -740.73mV
+    V(CANAL1_N00382)          =  -579.76mV  \  -574.99mV
+    V(CANAL2_N02370)          =    12.74mV  \    12.63mV
+    V(ENTRADA_DJ_CH2)         =    12.72mV  \    12.60mV
+    V(CANAL2_N01984)          =    1.769mV  \    1.689mV
+    V(CANAL2_N02150)          =    10.53mV  \    10.45mV
+    V(CANAL2_N02194)          =    10.23mV  \    10.11mV
+    V(CANAL2_N01994)          =    10.53mV  \    10.45mV
+    V(CANAL2_N02394)          =    12.74mV  \    12.63mV
+    V(BALANCE_PUBLICO_N01287) =  -257.75mV  \  -245.05mV
+    V(BALANCE_DJ_N00498)      =  -257.75mV  \  -245.05mV
+    V(X_CANAL1_U1A.11)        =    -1.032V  \    -1.015V
+    V(X_CANAL1_U1A.12)        =    -1.325V  \    -1.308V
+    V(X_CANAL1_U1A.6)         =    -4.976V  \    -4.959V
+    V(X_CANAL1_U1A.7)         =  -771.38mV  \  -754.85mV
+    V(X_CANAL1_U1A.53)        =    -1.473V  \    -1.457V
+    V(X_CANAL1_U1A.54)        =   -49.05mV  \   -32.77mV
+    V(X_CANAL1_U1A.90)        =   -44.59mV  \   -43.53mV
+    V(-5)                     =    -1.388V  \    -1.372V
+    V(5)                      =  -134.15mV  \  -117.89mV
+    V(X_CANAL1_U1A.99)        =  -761.23mV  \  -453.49mV
+    V(X_CANAL1_U1A.10)        =  -750.91mV  \  -741.69mV
+    V(X_CANAL1_U1A.8)         =  -771.38mV  \  -754.85mV
+    V(X_CANAL2_U1A.6)         =    26.22mV  \    25.72mV
+    V(X_CANAL2_U1A.7)         =    20.83mV  \    20.33mV
+    V(X_CANAL2_U1A.90)        =    32.91mV  \    31.35mV
+    V(X_CANAL2_U1A.99)        =    12.73mV  \    7.674mV
+    V(X_CANAL2_U1A.8)         =    20.83mV  \    20.33mV
+    V(X_BALANCE_PUBLICO_U1A.11) =    38.75mV  \    53.46mV
+    V(X_BALANCE_PUBLICO_U1A.12) =    29.75mV  \    44.45mV
+    V(X_BALANCE_PUBLICO_U1A.6) =   -10.20uV  \    -1.263V
+    V(X_BALANCE_PUBLICO_U1A.7) =   -62.54mV  \    -1.326V
+    V(SALIDA_PUBLICO)         =   -62.54mV  \  -117.89mV
+    V(X_BALANCE_PUBLICO_U1A.53) =    -1.473V  \    -1.457V
+    V(X_BALANCE_PUBLICO_U1A.54) =     1.205V  \     1.221V
+    V(X_BALANCE_PUBLICO_U1A.90) =   226.82pV  \    -4.901V
+    V(X_BALANCE_PUBLICO_U1A.99) =  -134.15mV  \   -71.77mV
+    V(X_BALANCE_PUBLICO_U1A.10) =   109.26mV  \   122.88mV
+    V(X_BALANCE_PUBLICO_U1A.8) =   -62.54mV  \    -1.326V
+    V(X_BALANCE_DJ_U1A.11)    =    38.75mV  \    53.46mV
+    V(X_BALANCE_DJ_U1A.12)    =    29.75mV  \    44.45mV
+    V(X_BALANCE_DJ_U1A.6)     =   -19.00uV  \    -1.000V
+    V(X_BALANCE_DJ_U1A.7)     =  -530.53uV  \    -1.000V
+    V(SALIDA_DJ)              =  -530.53uV  \  -117.89mV
+    V(X_BALANCE_DJ_U1A.53)    =    -1.473V  \    -1.457V
+    V(X_BALANCE_DJ_U1A.54)    =     1.205V  \     1.221V
+    V(X_BALANCE_DJ_U1A.90)    =   423.25pV  \      9.51V
+    V(X_BALANCE_DJ_U1A.99)    =  -134.15mV  \   -71.77mV
+    V(X_BALANCE_DJ_U1A.10)    =   109.26mV  \   122.88mV
+    V(X_BALANCE_DJ_U1A.8)     =  -530.53uV  \    -1.000V
+
+  These supply currents failed to converge:
+
+    I(X_CANAL1_U1A.EGND)      =    72.52uA  \    70.33uA
+    I(X_CANAL2_U1A.EGND)      =   -54.31uA  \   -51.74uA
+    I(X_BALANCE_PUBLICO_U1A.EGND) =   -1.312uA  \   -15.63mA
+    I(X_BALANCE_DJ_U1A.EGND)  =   -1.312uA  \   -15.63mA
+    I(V_CANAL1_V1)            =   -19.07uA  \   -18.12uA
+    I(X_CANAL1_U1A.VB)        =   -49.76uA  \   -49.59uA
+    I(X_CANAL1_U1A.VLIM)      =   -73.25uA  \   -71.51uA
+    I(X_CANAL2_U1A.VB)        =   262.19nA  \   257.15nA
+    I(X_CANAL2_U1A.VLIM)      =    54.06uA  \    51.49uA
+    I(X_BALANCE_PUBLICO_U1A.VB) =  -101.98pA  \  -551.78nA
+    I(X_BALANCE_PUBLICO_U1A.VC) =   -3.548pA  \   -24.60MA
+    I(X_BALANCE_PUBLICO_U1A.VE) =   -3.175pA  \   -24.60MA
+    I(X_BALANCE_PUBLICO_U1A.VLIM) =   372.61fA  \   -8.052mA
+    I(X_BALANCE_DJ_U1A.VB)    =  -190.00pA  \   -1.174uA
+    I(X_BALANCE_DJ_U1A.VC)    =   -3.709pA  \   -24.60MA
+    I(X_BALANCE_DJ_U1A.VE)    =   -3.014pA  \   -24.60MA
+    I(X_BALANCE_DJ_U1A.VLIM)  =   695.27fA  \    15.63mA
+    I(X_BALANCE_PUBLICO_U1A.HLIM) = -453.64e-24A  \     9.80pA
+    I(X_BALANCE_DJ_U1A.HLIM)  = -846.49e-24A  \   -19.02pA
+
+  These devices failed to converge:
+    X_BALANCE_PUBLICO_U1A.DC X_BALANCE_PUBLICO_U1A.DE X_BALANCE_DJ_U1A.DC 
+    X_BALANCE_DJ_U1A.DE X_CANAL1_U1A.FB X_CANAL2_U1A.FB 
+    X_BALANCE_PUBLICO_U1A.FB X_BALANCE_DJ_U1A.FB X_CANAL1_U1A.J2 
+    X_BALANCE_PUBLICO_U1A.J2 X_BALANCE_DJ_U1A.J2 
+
+**** Interrupt ****

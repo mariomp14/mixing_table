@@ -1,0 +1,7 @@
+ lib=c:\cadence\spb_17.2\tools\PSpice\Library\diode.lib, offset=19469, size=328
+ lib=c:\cadence\spb_17.2\tools\PSpice\Library\bipolar.lib, offset=314692, size=315
+ lib=c:\cadence\spb_17.2\tools\PSpice\Library\bipolar.lib, offset=312495, size=315
+ lib=c:\cadence\spb_17.2\tools\PSpice\Library\tex_inst.lib, offset=88418, size=1158
+ lib=c:\cadence\spb_17.2\tools\PSpice\Library\tex_inst.lib, offset=56488, size=1244
+ lib=c:\cadence\spb_17.2\tools\PSpice\Library\breakout.lib, offset=9201, size=133
+ lib=c:\cadence\spb_17.2\tools\PSpice\Library\opamp.lib, offset=96448, size=1161
